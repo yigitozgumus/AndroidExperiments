@@ -1,4 +1,4 @@
-package com.yigitouzgumus.androidexperiments
+package com.yigitozgumus.androidexperiments
 
 import org.junit.Test
 

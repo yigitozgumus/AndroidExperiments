@@ -1,4 +1,4 @@
-package com.yigitouzgumus.androidexperiments.ui.theme
+package com.yigitozgumus.androidexperiments.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

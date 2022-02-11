@@ -1,4 +1,4 @@
-package com.yigitouzgumus.androidexperiments
+package com.yigitozgumus.androidexperiments
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,7 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.yigitouzgumus.androidexperiments.ui.theme.AndroidExperimentsTheme
+import com.yigitozgumus.androidexperiments.ui.theme.AndroidExperimentsTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
