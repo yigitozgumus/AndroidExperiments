@@ -1,4 +1,4 @@
-package com.yigitozgumus.androidexperiments
+package com.yigitozgumus.compose_demos
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,20 +9,22 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.yigitozgumus.androidexperiments.ui.theme.AndroidExperimentsTheme
+import androidx.compose.ui.text.style.TextAlign
 
-class MainActivity : ComponentActivity() {
+class ControllerActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            AndroidExperimentsTheme {
-                // A surface container using the 'background' color from the theme
+            MaterialTheme {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    Greeting("Android")
+                    Text(
+                        text = "Hello to Compose Screen",
+                        textAlign = TextAlign.Center
+                    )
                 }
             }
         }
@@ -30,14 +32,6 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String) {
-    Text(text = "Hello $name!")
-}
-
-@Preview(showBackground = true)
-@Composable
-fun DefaultPreview() {
-    AndroidExperimentsTheme {
-        Greeting("Android")
-    }
+fun testFunction() {
+    Text("Hello World")
 }
