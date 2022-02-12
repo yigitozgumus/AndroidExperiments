@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Margins -->
+    <dimen name="marginn_xxx_small">2dp</dimen>
+    <dimen name="margin_xx_small">4dp</dimen>
+    <dimen name="margin_x_small">6dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_x_large">20dp</dimen>
+    <dimen name="margin_xx_large">24dp</dimen>
+    <dimen name="margin_xxx_large">32dp</dimen>
+    <!-- special sizes -->
+
+    <!-- Paddings -->
+    <dimen name="padding_xxx_small">2dp</dimen>
+    <dimen name="padding_xx_small">4dp</dimen>
+    <dimen name="padding_x_small">6dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_x_large">20dp</dimen>
+    <dimen name="padding_xx_large">24dp</dimen>
+    <dimen name="padding_xxx_large">32dp</dimen>
+    <!-- special sizes -->
+
+    <!-- Text Size -->
+
+    <!-- Elevation -->
+    <dimen name="elevation_small">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_large">6dp</dimen>
+    <dimen name="elevation_x_large">8dp</dimen>
+    <dimen name="elevation_xx_large">12dp</dimen>
+</resources>
