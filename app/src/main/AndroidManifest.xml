@@ -14,7 +14,7 @@
         android:theme="@style/Theme.AndroidExperiments"
         tools:targetApi="31">
         <activity
-            android:name="com.yigitozgumus.androidexperiments.MainActivity"
+            android:name="com.yigitozgumus.androidexperiments.entry.EntryActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.AndroidExperiments">
@@ -24,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.yigitozgumus.androidexperiments.demos.ParentChildFragmentDemoActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
